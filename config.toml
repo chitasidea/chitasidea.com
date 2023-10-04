@@ -1,0 +1,15 @@
+baseURL = 'https://chitasidea.com'
+languageCode = 'en-us'
+title = 'Chitas Idea'
+theme = 'paper'
+paginate = 3
+[params]
+  disableHLJS = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
